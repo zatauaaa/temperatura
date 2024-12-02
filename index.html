@@ -24,7 +24,7 @@
 
     // Función para obtener los datos desde Google Sheets
     async function fetchTemperatureData() {
-      const response = await fetch("TU_URL_DEL_APPS_SCRIPT");
+      const response = await fetch("https://script.google.com/macros/s/AKfycbzWxX_TgZqEWf1sZytbOABc5rQC0Sr_6Kby2D1AQgOKZ5Pfn-BdCFLOzPDw8NTI04lNRw/exec");
       const data = await response.json();
       temperatureData = data;
 
